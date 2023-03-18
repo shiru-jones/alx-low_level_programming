@@ -20,5 +20,4 @@ int main(void)
                 printf("%d i zero\n", n);
         else
                 printf("%d is negative\n", n);
-
         return (0)
