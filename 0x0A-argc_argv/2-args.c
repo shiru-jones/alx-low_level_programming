@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * Main - Entry point
- * @argc: count
- * @argv: array
- * Return: Always 0
+ * main - Entry point
+ * @argc: argument
+ * @argv: argument
+ * Return: Always 0 (Success)
  */
 
 int main(int argc, char *argv[])
