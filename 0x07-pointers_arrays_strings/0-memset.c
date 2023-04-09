@@ -3,7 +3,7 @@
 /**
  **_memset - fills the memory with a constant byte
  * @s: memory area pointed
- * @b: byte
+ * @b: constant byte
  * @n: function fills the first byte
  * Return: pointer to memory area 's'
  */
@@ -17,3 +17,4 @@ char *_memset(char *s, char b, unsigned int n)
 	}
 	return (s);
 }
+
