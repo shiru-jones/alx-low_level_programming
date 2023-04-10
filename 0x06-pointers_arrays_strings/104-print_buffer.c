@@ -2,7 +2,11 @@
 #include <stdio.h>
 /**
  * print_buffer - prints buffer
- * @b: buffe
+ * @b: buffer
+ * @size: size
+ * Description: this function that prints a buffer
+ * with the content of size bytes of the buffer pointed by b and
+ * The output that prints 10 bytes per line.
  *
  * Return: void
  */
