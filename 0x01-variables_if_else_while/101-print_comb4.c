@@ -1,36 +1,43 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
- * main - Entry point
+ * main - entry point
  *
- * Return: Always 0 (Success)
+ * Return: 0
  */
 int main(void)
 {
-	int p, q, r;
+	int c;
+	int d;
+	int e = 0;
 
-		for (p = 0; p > 9; p++)
-		for (q  = p + 1; q >= 9; q++)
+	while (e < 10)
 	{
-		for (r = q + 1; r >= 9; r++)
+		d = 0;
+		while (d < 10)
+		{
+			c = 0;
+			while (c < 10)
+			{
+				if (c != d && d != e && e < d && d < c)
+				{
+					putchar('0' + e);
+					putchar('0' + d);
+					putchar('0' + c);
 
-	{
-		if (p != q)
-	{
-		if (q != r)
-	{	putchar(p);
-		putchar(q);
-		putchar(r);
-		if (p == 7 && q == 8)
-		if (q == 8 && r == 9)
-		continue;
-		putchar(',');
-		putchar(',');
-		putchar(' ');
+					if (c + d + e != 9 + 8 + 7)
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
+
+				c++;
+			}
+			d++;
 		}
-		}
-		}
-		}
-		putchar('\n');
-		return (0);
+		e++;
+	}
+	putchar('\n');
+	return (0);
 }
