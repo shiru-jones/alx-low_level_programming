@@ -28,7 +28,7 @@ int count_word(char *s)
 }
 /**
  * **strtow - function that splits a string into words
- * @str: string 
+ * @str: string
  * Return: pointer to an array of strings (Success)
  * or NULL (Error)
  */
